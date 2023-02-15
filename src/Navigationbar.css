@@ -1,6 +1,6 @@
 .navbar{
     height: 100px;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     /* float: right; */
@@ -17,6 +17,6 @@
     padding: 20px;
     /* margin-left: 200px; */
 }
-.navbar li{
+.navbar a{
     color: white !important;
 }

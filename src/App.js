@@ -10,27 +10,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Home from './Home/Home';
 function App() {
   return (
-    <div className="App">
-      
-      {/* <img src={portreact} alt="Background Image"/> */}
-      <div className="header">
-        <Navigationbar />
-      </div>
-      <div className="main">
-        <About />
-
-        <Skills />
-      </div>
-      
-      <Router>
-        <Routes>
-          <Route path="/" exact element={<App />} />
-          <Route path="/workexp"  element={<WorkExperience />} />
-          {/* <Route path="/contact"  component={Contact} /> */}
-        </Routes>
-      </Router>
+      <div>
+        <Router> 
+          <Routes> 
+            <Route path="/" exact element={<Home />} />
+            <Route path="/workexp"  element={<WorkExperience />} /> 
+            {/* <Route path="/contact"  component={Contact} />  */}
+          </Routes> 
+        </Router> 
     
       
     </div>
