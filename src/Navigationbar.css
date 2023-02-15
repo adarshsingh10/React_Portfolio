@@ -1,0 +1,22 @@
+.navbar{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* float: right; */
+}
+.navbar ul{
+    /* margin: 3px 3px; */
+    /* float: right; */
+    /* float: left; */
+    display: flex;
+    gap: 3.5rem;
+    color: white !important;
+    list-style: none;
+    margin-left:900px;
+    padding: 20px;
+    /* margin-left: 200px; */
+}
+.navbar li{
+    color: white !important;
+}
