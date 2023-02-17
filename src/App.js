@@ -15,13 +15,14 @@ function App() {
   return (
       <div>
         <Router> 
+        <Navigationbar />
           <Routes> 
             <Route path="/" exact element={<Home />} />
             <Route path="/workexp"  element={<WorkExperience />} /> 
             {/* <Route path="/contact"  component={Contact} />  */}
           </Routes> 
         </Router> 
-    
+        
       
     </div>
   );

@@ -1,8 +1,15 @@
 .App {
   /* text-align: center; */
   /* display: flex; */
+  /* background-image: url('../public/portreact.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
-
+body{
+  background-image: url('../public/portreact.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

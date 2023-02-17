@@ -5,10 +5,10 @@ import Navigationbar from '../Navigationbar';
 function Home(props) {
     return (
         <div className="home">
-            <div className="header">
+            {/* <div className="header">
                 <Navigationbar />
-            </div>
-            <div className="main">
+            </div> */}
+            <div className="main" style={{display: 'flex', justifyContent: 'space-between'}}>
                 <About />
 
                 <Skills />

@@ -1,9 +1,10 @@
 .navbar{
     height: 100px;
+    /* position: fixed; */
     /* background-color: white; */
     display: flex;
     justify-content: space-between;
-    /* float: right; */
+    float: right;
 }
 .navbar ul{
     /* margin: 3px 3px; */
@@ -13,10 +14,13 @@
     gap: 3.5rem;
     color: white !important;
     list-style: none;
-    margin-left:900px;
+    /* margin-left:900px; */
     padding: 20px;
     /* margin-left: 200px; */
 }
 .navbar a{
     color: white !important;
+}
+.navbar a:hover{
+    font-size: 110%;
 }
